@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Pantry Tracker</title>
 </head>
 <body>
-    <button>Click</button>
+   
+    <div class = "main">
+        <h1>PANTRY TRACKER</h1>
+        <input id="name" type="text" placeholder="name" style=""></input>
+        <input id="count" type="text" placeholder="count"></input>
+        <button id="newItemBtn">add</button>
+        <table id = "tbl">
+            <tr>
+                <th>ITEM</th>
+                <th>COUNT</th>
+            </tr>
+        </table>
+    </div>
+    
     <script type="module" src="index.js"></script>
 </body>
 </html>

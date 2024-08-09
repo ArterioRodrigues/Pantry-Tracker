@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
-import { getFirestore, collection, getDocs, addDoc, setDoc, doc} from 'https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js'; 
+import { getFirestore, collection, getDocs, addDoc, setDoc, doc, deleteDoc} from 'https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js'; 
 import { firebaseConfig } from "./config.js";
 
 export default class Firebase {
